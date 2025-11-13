@@ -1,73 +1,40 @@
-# React + TypeScript + Vite
+# Portfólio Pessoal - Andreas Nunes
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este repositório contém o código-fonte do meu portfólio pessoal, desenvolvido com React, TypeScript e Vite.
 
-Currently, two official plugins are available:
+## 🚀 [Acesse a versão ao vivo](https://andreaskys.github.io/andreas-portfolio/)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+![Pré-visualização do Portfólio](./.github/preview.png)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🏛️ Sobre o Projeto
 
-## Expanding the ESLint configuration
+Este projeto é o meu portfólio pessoal, criado para apresentar minhas habilidades, projetos e experiência profissional a recrutadores e colegas da área.
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+### 🎨 Conceito de Design
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+A estética do projeto foi intencionalmente inspirada no icônico cartão de visitas do filme "Psicopata Americano" (American Psycho).
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+O objetivo era criar uma interface que fosse:
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+* **Minimalista:** Focada estritamente no conteúdo, sem distrações.
+* **Formal e Elegante:** Transmitindo profissionalismo e seriedade.
+* **Focada na Tipografia:** Utilizando fontes serifadas (como `Cormorant Garamond`) para títulos e fontes sans-serif (como `Inter`) para o corpo, criando uma hierarquia de informação clara e agradável.
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+## 🛠️ Tecnologias Utilizadas
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+O projeto foi construído utilizando tecnologias modernas de frontend:
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+* **React:** Para a construção da interface de usuário.
+* **TypeScript:** Para adicionar tipagem estática e robustez ao código.
+* **Vite:** Como ferramenta de build e servidor de desenvolvimento rápido.
+* **Tailwind CSS:** Para estilização utilitária, mantendo o CSS limpo e dentro do HTML.
+* **GitHub Pages:** Para deploy e hospedagem da aplicação.
+
+## 🏃‍♂️ Rodando o Projeto Localmente
+
+Caso queira executar o projeto em sua máquina local, siga os passos abaixo.
+
+**Requisitos:**
+*
